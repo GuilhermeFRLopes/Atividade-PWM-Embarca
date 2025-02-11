@@ -3,7 +3,7 @@
 #include "hardware/pwm.h" //biblioteca para controlar o hardware de PWM
 #include "pico/time.h"  
 
-#define PWM_PIN_22 12 //GPIO 22 que sera usado como pwm
+#define PWM_PIN_22 22 //GPIO 22 que sera usado como pwm
 
 const float PWM_DIVISOR = 125.0;  // Divisor do clock para atingir 50 Hz
 const uint16_t WRAP_PERIOD = 20000;  // Período para 20ms (50 Hz)
